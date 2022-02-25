@@ -1,4 +1,5 @@
 import psycopg2
+
 from tabulate import tabulate
 def  post(x,y,z):
     try:
