@@ -75,7 +75,7 @@ while retry
     if m==2
       conn = pq_connect(setdbopts('dbname','EP1','host','localhost',
       'port','5432','user','postgres','password','123fgthg'));
-      N=pq_exec_params(conn, "Select * from angle;"); %insertar datos en la tabla
+      N=pq_exec_params(conn, "Select * from dados;"); %insertar datos en la tabla
       disp(N)
       retry=false;
     endif
